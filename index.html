@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="first.js"></script>
+  <header>
+
+    <div class="container">
+      <div class="b1"> <a> <button href="#"  style="margin-right: 100px; font-size: 20px;">My Account</button></a></div>
+      
+      <nav>
+        <div class="left-cnt">
+          <div class="heading">
+            <h1>
+              ONLINE RESUME <BR>
+            </h1>
+          </div>
+
+          <div class="h12">
+            <h1>
+              GENERATOR
+            </h1>
+          </div>
+
+         <div class="btn1"> <a href="signin.html"><button class="book"> SIGN IN</button></a></div>
+        </div>
+
+        <div class="right-cnt">
+         
+          <DIV class="IMG"> <img src="IMAGE/minimalist-cv-template.png" height="500" width="500"></DIV>
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+  
+  <section class="info">
+    <div class="cont">
+
+
+      <h1> Resume Generator</h1>
+
+    <div class="jeje">
+      <div class="d1">
+        <input id="firstName" placeholder="First Name">
+      <input id="lastName" placeholder="Last Name">
+      <input id="headline" placeholder="Headline">
+    </div>
+    <div class="d2">
+       <input id="email" placeholder="Email">
+      <input id="website" placeholder="Website">
+      <input id="phone" placeholder="Phone Number">
+    </div>
+    <div class="d3"> <input id="address" placeholder="Address">
+      <input id="skills" placeholder="Skills (comma-separated)">
+    </div>
+    </div>   
+
+    <div class="first" >
+      <div class="E1">
+        <img src="IMAGE/GRAPH.png"  height="200" width="200">
+        <h2>Experience</h2>
+        <div id="experiencesContainer"></div>
+        <button id="addExperience">Add Experience</button>
+      </div>
+
+      <div class="E2" >
+        <img src="IMAGE/4534-removebg-preview.png"  height="200" width="200">
+        <h2>Education</h2>
+        <div id="educationsContainer"></div>
+        <button id="addEducation">Add Education</button>
+      </div>
+
+      <div class="E3">
+        <img src="IMAGE/vecteezy_3d-certificate-or-diploma-icon-with-stamp-and-ribbon-bow_9315293.png"  height="150" width="150" style="margin-top: 50px;" >
+        <h2>Certifications</h2>
+        <div id="certificationsContainer"></div>
+        <button id="addCertification">Add Certification</button>
+      </div>
+    </div>
+  
+      
+      <br><br>
+      <button id="saveResume" style="font-size: 20px;">Save Resume</button>
+      <button id="clearStorage" style="font-size: 20px;" >Clear Storage</button>
+      <button id="openInNewTab" style="font-size: 20px;">Open in New Tab</button>
+
+      <div id="resumePreview"></div>
+    </div>
+
+
+    <script>
+      document.getElementById("saveResume");
+    </script>
+
+</body>
+
+</html>
